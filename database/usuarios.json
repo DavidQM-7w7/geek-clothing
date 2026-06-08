@@ -1,0 +1,72 @@
+[
+ {
+    "_id": 1,
+    "nombre": "David Quesada",
+    "correo": "david.quesada@geek-clothing.com",
+    "telefono": "88888888",
+    "fechaRegistro": "2026-06-15"
+ },
+ {
+    "_id": 2,
+    "nombre": "Ana Mora",
+    "correo": "ana.mora@geek-clothing.com",
+    "telefono": "87777777",
+    "fechaRegistro": "2026-08-02"
+  },
+  {
+    "_id": 3,
+    "nombre": "Carlos López",
+    "correo": "carlos.lopez@geek-clothing.com",
+    "telefono": "86666666",
+    "fechaRegistro": "2026-08-03"
+  },
+  {
+    "_id": 4,
+    "nombre": "María Rodríguez",
+    "correo": "maria.rodriguez@geek-clothing.com",
+    "telefono": "85555555",
+    "fechaRegistro": "2026-08-04"
+  },
+  {
+    "_id": 5,
+    "nombre": "José Vargas",
+    "correo": "jose.vargas@geek-clothing.com",
+    "telefono": "84444444",
+    "fechaRegistro": "2026-08-05"
+  },
+  {
+    "_id": 6,
+    "nombre": "Sofía Jiménez",
+    "correo": "sofia.jimenez@geek-clothing.com",
+    "telefono": "83333333",
+    "fechaRegistro": "2026-08-06"
+  },
+  {
+    "_id": 7,
+    "nombre": "Luis Araya",
+    "correo": "luis@geek-clothing.com",
+    "telefono": "82222222",
+    "fechaRegistro": "2026-08-07"
+  },
+  {
+    "_id": 8,
+    "nombre": "Paula Chaves",
+    "correo": "paula.chaves@geek-clothing.com",
+    "telefono": "81111111",
+    "fechaRegistro": "2026-08-08"
+  },
+  {
+    "_id": 9,
+    "nombre": "Daniel Solano",
+    "correo": "daniel.solano@geek-clothing.com",
+    "telefono": "80000000",
+    "fechaRegistro": "2026-08-09"
+  },
+  {
+    "_id": 10,
+    "nombre": "Valeria Castro",
+    "correo": "valeria.castro@geek-clothing.com",
+    "telefono": "89999999",
+    "fechaRegistro": "2026-08-10"
+  }
+]

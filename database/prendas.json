@@ -1,0 +1,82 @@
+[
+      {
+    "_id": 1,
+    "nombre": "Camiseta Saiyan Evolution",
+    "marcaId": 3,
+    "categoria": "Camisetas",
+    "precio": 18000,
+    "stock": 50
+  },
+  {
+    "_id": 2,
+    "nombre": "Sudadera Hoja Oculta",
+    "marcaId": 4,
+    "categoria": "Sudaderas",
+    "precio": 28000,
+    "stock": 35
+  },
+  {
+    "_id": 3,
+    "nombre": "Chaqueta Capitán Pirata",
+    "marcaId": 5,
+    "categoria": "Chaquetas",
+    "precio": 35000,
+    "stock": 20
+  },
+  {
+    "_id": 4,
+    "nombre": "Camiseta Academia Heroica",
+    "marcaId": 8,
+    "categoria": "Camisetas",
+    "precio": 17000,
+    "stock": 45
+  },
+  {
+    "_id": 5,
+    "nombre": "Hoodie Cazador de Demonios",
+    "marcaId": 9,
+    "categoria": "Sudaderas",
+    "precio": 30000,
+    "stock": 25
+  },
+  {
+    "_id": 6,
+    "nombre": "Camisa Alquimista Estatal",
+    "marcaId": 7,
+    "categoria": "Camisas",
+    "precio": 22000,
+    "stock": 30
+  },
+  {
+    "_id": 7,
+    "nombre": "Jacket Soul Reaper",
+    "marcaId": 6,
+    "categoria": "Chaquetas",
+    "precio": 38000,
+    "stock": 18
+  },
+  {
+    "_id": 8,
+    "nombre": "Playera Titan Defense",
+    "marcaId": 2,
+    "categoria": "Camisetas",
+    "precio": 19000,
+    "stock": 40
+  },
+  {
+    "_id": 9,
+    "nombre": "Camiseta Fox Spirit",
+    "marcaId": 1,
+    "categoria": "Camisetas",
+    "precio": 16000,
+    "stock": 55
+  },
+  {
+    "_id": 10,
+    "nombre": "Chaqueta Mecha Pilot",
+    "marcaId": 10,
+    "categoria": "Chaquetas",
+    "precio": 45000,
+    "stock": 15
+  }
+]

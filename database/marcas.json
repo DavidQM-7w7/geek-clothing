@@ -1,0 +1,12 @@
+[
+  { "_id": 1, "nombre": "Kitsune Wear", "pais": "Japón", "colaboracion": "Ninja Legends" },
+  { "_id": 2, "nombre": "Titan Apparel", "pais": "Japón", "colaboracion": "Wall Guardians" },
+  { "_id": 3, "nombre": "Saiyan Style", "pais": "Japón", "colaboracion": "Galactic Warriors" },
+  { "_id": 4, "nombre": "Shadow Leaf Clothing", "pais": "Japón", "colaboracion": "Shinobi Chronicles" },
+  { "_id": 5, "nombre": "Pirate King Outfitters", "pais": "Japón", "colaboracion": "Grand Voyage" },
+  { "_id": 6, "nombre": "Soul Reaper Fashion", "pais": "Japón", "colaboracion": "Spirit Blades" },
+  { "_id": 7, "nombre": "Alchemy Threads", "pais": "Japón", "colaboracion": "Steel Alchemists" },
+  { "_id": 8, "nombre": "Hero Academy Wear", "pais": "Japón", "colaboracion": "Super Hero Generation" },
+  { "_id": 9, "nombre": "Demon Hunter Gear", "pais": "Japón", "colaboracion": "Moon Breathing Saga" },
+  { "_id": 10, "nombre": "Mecha Nexus", "pais": "Japón", "colaboracion": "Cyber Giant Project" }
+]

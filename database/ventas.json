@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1,
+    "usuarioId": 1,
+    "fecha": "2026-08-20",
+    "detalle": [
+      {
+        "prendaId": 1,
+        "cantidad": 8
+      }
+    ],
+    "total": 144000
+  },
+  {
+    "_id": 2,
+    "usuarioId": 2,
+    "fecha": "2026-08-20",
+    "detalle": [
+      {
+        "prendaId": 4,
+        "cantidad": 5
+      }
+    ],
+    "total": 85000
+  },
+  {
+    "_id": 3,
+    "usuarioId": 3,
+    "fecha": "2026-08-21",
+    "detalle": [
+      {
+        "prendaId": 5,
+        "cantidad": 4
+      }
+    ],
+    "total": 120000
+  },
+  {
+    "_id": 4,
+    "usuarioId": 4,
+    "fecha": "2026-08-21",
+    "detalle": [
+      {
+        "prendaId": 1,
+        "cantidad": 6
+      }
+    ],
+    "total": 108000
+  },
+  {
+    "_id": 5,
+    "usuarioId": 5,
+    "fecha": "2026-08-22",
+    "detalle": [
+      {
+        "prendaId": 8,
+        "cantidad": 7
+      }
+    ],
+    "total": 133000
+  },
+  {
+    "_id": 6,
+    "usuarioId": 6,
+    "fecha": "2026-08-22",
+    "detalle": [
+      {
+        "prendaId": 7,
+        "cantidad": 3
+      }
+    ],
+    "total": 114000
+  },
+  {
+    "_id": 7,
+    "usuarioId": 7,
+    "fecha": "2026-08-23",
+    "detalle": [
+      {
+        "prendaId": 3,
+        "cantidad": 5
+      }
+    ],
+    "total": 175000
+  },
+  {
+    "_id": 8,
+    "usuarioId": 8,
+    "fecha": "2026-08-23",
+    "detalle": [
+      {
+        "prendaId": 9,
+        "cantidad": 6
+      }
+    ],
+    "total": 96000
+  },
+  {
+    "_id": 9,
+    "usuarioId": 9,
+    "fecha": "2026-08-24",
+    "detalle": [
+      {
+        "prendaId": 10,
+        "cantidad": 2
+      }
+    ],
+    "total": 90000
+  },
+  {
+    "_id": 10,
+    "usuarioId": 10,
+    "fecha": "2026-08-24",
+    "detalle": [
+      {
+        "prendaId": 2,
+        "cantidad": 9
+      }
+    ],
+    "total": 252000
+  }
+]

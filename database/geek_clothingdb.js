@@ -494,7 +494,7 @@ db.ventas.deleteOne({
 db.ventas.aggregate([
     {
         $match: {
-            fecha: new Date("2026-08-20")
+            fecha: "2026-08-20"
         }
     },
     {

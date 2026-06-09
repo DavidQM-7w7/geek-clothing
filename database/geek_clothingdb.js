@@ -559,7 +559,7 @@ db.ventas.aggregate([
 // CONSULTA 3
 // ========================================
 
-// Obtener cada prenda vendida junto con la cantidad restante disponible en inventario
+// Obtener cada prenda vendida junto con la cantidad restante disponible en inventario 
 
 db.ventas.aggregate([
     {

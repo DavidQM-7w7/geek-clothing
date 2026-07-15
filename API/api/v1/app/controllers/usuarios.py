@@ -1,10 +1,12 @@
 from flask import Blueprint, jsonify, request
 from app.models.usuario import UsuarioModel
+from app.auth import token_required
 
 usuarios_bp = Blueprint("usuarios", __name__)
 
 
 @usuarios_bp.route("/usuarios", methods=["GET"])
+@token_required
 def obtener_usuarios():
     usuarios = UsuarioModel.obtener_todos()
     return jsonify(usuarios)

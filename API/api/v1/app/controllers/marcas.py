@@ -1,15 +1,18 @@
 from flask import Blueprint, jsonify, request
 from app.models.marca import MarcaModel
+from app.auth import token_required
 
 marcas_bp = Blueprint("marcas", __name__)
 
 
 @marcas_bp.route("/marcas", methods=["GET"])
+@token_required
 def obtener_marcas():
     return jsonify(MarcaModel.obtener_todas())
 
 
 @marcas_bp.route("/marcas/<int:id>", methods=["GET"])
+@token_required
 def obtener_marca(id):
 
     marca = MarcaModel.obtener_por_id(id)
@@ -21,6 +24,7 @@ def obtener_marca(id):
 
 
 @marcas_bp.route("/marcas", methods=["POST"])
+@token_required
 def insertar_marca():
 
     datos = request.get_json()
@@ -33,6 +37,7 @@ def insertar_marca():
 
 
 @marcas_bp.route("/marcas/<int:id>", methods=["PUT"])
+@token_required
 def actualizar_marca(id):
 
     datos = request.get_json()
@@ -50,6 +55,7 @@ def actualizar_marca(id):
 
 
 @marcas_bp.route("/marcas/<int:id>", methods=["DELETE"])
+@token_required
 def eliminar_marca(id):
 
     eliminado = MarcaModel.eliminar(id)

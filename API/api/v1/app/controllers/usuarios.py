@@ -12,6 +12,7 @@ def obtener_usuarios():
     return jsonify(usuarios)
 
 @usuarios_bp.route("usuarios/<int:id>", methods=["GET"])
+@token_required
 def obtener_usuario(id):
     usuario = UsuarioModel.obtener_por_id(id)
 
@@ -21,6 +22,7 @@ def obtener_usuario(id):
     return jsonify({"mensaje": "Usuario no encontrado"}), 404
 
 @usuarios_bp.route("/usuarios", methods=["POST"])
+@token_required
 def insertar_usuario():
     datos = request.get_json()
 
@@ -31,6 +33,7 @@ def insertar_usuario():
     }), 201
 
 @usuarios_bp.route("/usuarios/<int:id>", methods=["PUT"])
+@token_required
 def actualizar_usuario(id):
 
     datos = request.get_json()
@@ -47,6 +50,7 @@ def actualizar_usuario(id):
     }), 404
 
 @usuarios_bp.route("/usuarios/<int:id>", methods=["DELETE"])
+@token_required
 def eliminar_usuario(id):
 
     eliminado = UsuarioModel.eliminar(id)

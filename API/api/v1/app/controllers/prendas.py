@@ -1,15 +1,18 @@
 from flask import Blueprint, jsonify, request
 from app.models.prenda import PrendaModel
+from app.auth import token_required
 
 prendas_bp = Blueprint("prendas", __name__)
 
 
 @prendas_bp.route("/prendas", methods=["GET"])
+@token_required
 def obtener_prendas():
     return jsonify(PrendaModel.obtener_todas())
 
 
 @prendas_bp.route("/prendas/<int:id>", methods=["GET"])
+@token_required
 def obtener_prenda(id):
 
     prenda = PrendaModel.obtener_por_id(id)
@@ -21,6 +24,7 @@ def obtener_prenda(id):
 
 
 @prendas_bp.route("/prendas", methods=["POST"])
+@token_required
 def insertar_prenda():
 
     datos = request.get_json()
@@ -33,6 +37,7 @@ def insertar_prenda():
 
 
 @prendas_bp.route("/prendas/<int:id>", methods=["PUT"])
+@token_required
 def actualizar_prenda(id):
 
     datos = request.get_json()
@@ -50,6 +55,7 @@ def actualizar_prenda(id):
 
 
 @prendas_bp.route("/prendas/<int:id>", methods=["DELETE"])
+@token_required
 def eliminar_prenda(id):
 
     eliminado = PrendaModel.eliminar(id)

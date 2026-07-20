@@ -1,10 +1,12 @@
 from flask import Blueprint, jsonify
 from app.database import db
+from app.auth import token_required
 
 reportes_bp = Blueprint("reportes", __name__)
 
 #Marcas que tienen al menos una venta
 @reportes_bp.route("/reportes/marcas-con-ventas", methods=["GET"])
+@token_required
 def marcas_con_ventas():
 
     resultado = list(db.ventas.aggregate([
@@ -62,6 +64,7 @@ def marcas_con_ventas():
 
 #Prendas vendidas y stock restante
 @reportes_bp.route("/reportes/prendas-stock", methods=["GET"])
+@token_required
 def prendas_stock():
 
     resultado = list(db.ventas.aggregate([
@@ -98,6 +101,7 @@ def prendas_stock():
 
 #Top 5 marcas más vendidas
 @reportes_bp.route("/reportes/top5-marcas", methods=["GET"])
+@token_required
 def top5_marcas():
 
     resultado = list(db.ventas.aggregate([
